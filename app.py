@@ -6,7 +6,6 @@ that the page's JavaScript calls with each message. Uses the exact same
 bot_core.get_bot_reply() as the terminal version -- nothing about the
 classifier or the LLM fallback changes here.
 """
-import flash
 from flask import Flask, request, jsonify, render_template, session
 from bot_core import get_bot_reply
 
