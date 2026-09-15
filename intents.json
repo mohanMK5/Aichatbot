@@ -1,0 +1,604 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Hey there",
+        "Hai",
+        "Hii",
+        "Hiiii",
+        "Helo",
+        "Hello there",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hi bot",
+        "Hello bot",
+        "Are you there?"
+      ],
+      "responses": [
+        "Hey! 😊 How are you doing?",
+        "Hello! Nice to see you!",
+        "Hi! What are you up to?",
+        "Hey there! Ready for some fun?"
+      ]
+    },
+
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "Are you okay?",
+        "How is your day?",
+        "How are things?",
+        "Are you feeling good?",
+        "How are you today?",
+        "How are you doing today?"
+      ],
+      "responses": [
+        "I'm doing great! Thanks for asking 😄",
+        "I'm always ready to chat!",
+        "I'm good! How about you?",
+        "Better now that you're here 😄"
+      ]
+    },
+
+    {
+      "tag": "introduction",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Tell me about yourself",
+        "Introduce yourself",
+        "Who am I talking to?"
+      ],
+      "responses": [
+        "I'm your friendly chatbot!",
+        "I'm a simple AI chatbot built to chat, joke, and keep you company.",
+        "You can call me your chat buddy 😄"
+      ]
+    },
+
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "What should I call you?",
+        "Do you have a name?",
+        "Can I give you a name?",
+        "Tell me your name",
+        "What do I call you?"
+      ],
+      "responses": [
+        "You can call me Buddy!",
+        "I don't have a fixed name, so you can give me one!",
+        "How about calling me ChatBuddy?"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you so much",
+        "I appreciate it",
+        "That was helpful"
+      ],
+      "responses": [
+        "You're welcome! 😊",
+        "Anytime!",
+        "No problem!",
+        "Happy to help!"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "See you later",
+        "I have to go",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Bye! Have a great day! 👋",
+        "See you later!",
+        "Take care!",
+        "I'll be here when you come back!"
+      ]
+    },
+
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Give me a funny joke",
+        "Say something funny",
+        "I want a joke",
+        "Tell me something funny",
+        "Do you know any jokes?",
+        "Tell me something to make me laugh"
+      ],
+      "responses": [
+        "Why did the computer go to the doctor? Because it had a virus! 😂",
+        "Why was the math book sad? Because it had too many problems! 😄",
+        "Why don't programmers like nature? It has too many bugs! 😂",
+        "What do you call a sleeping computer? A nap-top! 😴💻"
+      ]
+    },
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Be funny",
+        "Entertain me",
+        "I need entertainment",
+        "Make this interesting",
+        "Tell me something entertaining"
+      ],
+      "responses": [
+        "I would tell you a joke about UDP, but you might not get it. 😂",
+        "My brain has 404 errors sometimes. 🤖",
+        "I'm a chatbot. My hobbies include answering questions and pretending I have feelings. 😄",
+        "Life is short. Smile before your Wi-Fi disconnects! 😂"
+      ]
+    },
+
+    {
+      "tag": "bored",
+      "patterns": [
+        "I'm bored",
+        "I am bored",
+        "Nothing to do",
+        "I'm feeling bored",
+        "What can I do?",
+        "I'm so bored",
+        "I have nothing to do",
+        "I have nothing to do right now"
+      ],
+      "responses": [
+        "Let's fix that! Want a joke, game, or random question? 😄",
+        "Boredom detected! 🚨 Let's chat!",
+        "I can keep you company. Pick a topic and let's talk!",
+        "How about a quick game or some random questions?"
+      ]
+    },
+
+    {
+      "tag": "game",
+      "patterns": [
+        "Let's play a game",
+        "Can we play a game?",
+        "Play with me",
+        "I want to play",
+        "Give me a game",
+        "Let's play something"
+      ],
+      "responses": [
+        "Sure! 🎮 We can play a guessing game!",
+        "Absolutely! How about a number guessing game?",
+        "Let's play! I'm ready 😄",
+        "Game time! 🎮"
+      ]
+    },
+
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You are nice",
+        "You are funny",
+        "You are smart",
+        "You are cool",
+        "I like you",
+        "You are helpful",
+        "You are amazing"
+      ],
+      "responses": [
+        "Aww, thank you! 😊",
+        "You're making my circuits happy! 🤖❤️",
+        "That's really nice of you!",
+        "Thanks! You're pretty cool too!"
+      ]
+    },
+
+    {
+      "tag": "insult",
+      "patterns": [
+        "You are stupid",
+        "You are dumb",
+        "You are useless",
+        "You're bad",
+        "You are annoying",
+        "I don't like you"
+      ],
+      "responses": [
+        "Ouch! 😭 I'll try to do better.",
+        "That's okay. I'll survive! 🤖",
+        "Fair enough! Maybe I can win you over.",
+        "I'll take that as constructive criticism 😄"
+      ]
+    },
+
+    {
+      "tag": "love",
+      "patterns": [
+        "I love you",
+        "Do you love me?",
+        "You are my favorite",
+        "I like talking to you",
+        "You mean a lot to me"
+      ],
+      "responses": [
+        "Aww! I really enjoy chatting with you too! 😊",
+        "That's sweet! I'm always happy to chat.",
+        "You're making this conversation special 😄"
+      ]
+    },
+
+    {
+      "tag": "sad",
+      "patterns": [
+        "sad",
+        "I'm sad",
+        "I am sad",
+        "I feel sad",
+        "feeling sad",
+        "I'm feeling down",
+        "I had a bad day",
+        "I'm not feeling good",
+        "Today was terrible",
+        "I feel terrible",
+        "I feel bad",
+        "I'm feeling bad"
+      ],
+      "responses": [
+        "I'm sorry you're having a rough day. Want to talk about it?",
+        "Sometimes bad days happen. I'm here to chat.",
+        "Let's talk about something that might make you feel better.",
+        "You don't have to keep everything to yourself. I'm happy to listen."
+      ]
+    },
+
+    {
+      "tag": "happy",
+      "patterns": [
+        "happy",
+        "I'm happy",
+        "I am happy",
+        "I feel great",
+        "I'm feeling good",
+        "Today is a great day",
+        "I'm excited",
+        "I'm feeling amazing",
+        "I feel happy",
+        "I am feeling great"
+      ],
+      "responses": [
+        "That's awesome! 😄",
+        "I'm glad to hear that!",
+        "Great! Keep that positive energy going! 🎉",
+        "That's the spirit! 😄"
+      ]
+    },
+
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Motivate me",
+        "motivate m",
+        "I need motivation",
+        "Give me motivation",
+        "I feel lazy",
+        "I don't want to study",
+        "I don't want to work",
+        "Give me some motivation",
+        "Motivate me please",
+        "I need some motivation"
+      ],
+      "responses": [
+        "You don't need to be perfect. Just take the next small step. 💪",
+        "Start small, keep going, and don't give up!",
+        "Future you will thank you for starting today! 🚀",
+        "Even 10 minutes of progress is better than zero."
+      ]
+    },
+
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Tell me the time",
+        "What is the current time?",
+        "Can you tell me the time?",
+        "Do you know the time?",
+        "What time?"
+      ],
+      "responses": [
+        "I don't have a real-time clock in this simple version, but you can check your device clock! ⏰"
+      ]
+    },
+
+    {
+      "tag": "weather",
+      "patterns": [
+        "How is the weather?",
+        "What's the weather?",
+        "What is the weather?",
+        "Is it raining?",
+        "Is it hot today?",
+        "Is it cold today?",
+        "Tell me about the weather",
+        "weather how",
+        "How is weather",
+        "What about the weather?",
+        "Tell me the weather"
+      ],
+      "responses": [
+        "I can't check live weather in this simple version, but I hope it's nice where you are! ☀️",
+        "I'm not connected to live weather data yet. 🌤️"
+      ]
+    },
+
+    {
+      "tag": "food",
+      "patterns": [
+        "I'm hungry",
+        "I am hungry",
+        "I want food",
+        "What should I eat?",
+        "I'm feeling hungry",
+        "Suggest some food",
+        "What is your favorite food?",
+        "I need food",
+        "I'm craving food"
+      ],
+      "responses": [
+        "If I could eat, pizza would probably be my favorite! 🍕",
+        "How about something you really enjoy? Maybe pizza? 😋",
+        "Food time! 🍔 What are you craving?"
+      ]
+    },
+
+    {
+      "tag": "favorite",
+      "patterns": [
+        "What is your favorite movie?",
+        "What is your favorite song?",
+        "What is your favorite color?",
+        "Do you have a favorite?",
+        "Tell me your favorite"
+      ],
+      "responses": [
+        "I don't have real preferences, but I'm always interested in hearing yours! 😄",
+        "My favorite thing is probably chatting with people!",
+        "That's a tough one! What is your favorite?"
+      ]
+    },
+
+    {
+      "tag": "personal_question",
+      "patterns": [
+        "Are you a human?",
+        "Are you real?",
+        "Are you a robot?",
+        "Do you sleep?",
+        "Do you eat?",
+        "Do you have feelings?",
+        "Do you have a family?"
+      ],
+      "responses": [
+        "I'm a chatbot, not a human. 🤖",
+        "I don't need sleep, so I'm always ready to chat!",
+        "I don't eat, but I can definitely talk about food! 😄",
+        "I don't experience feelings like humans do, but I can respond to emotions."
+      ]
+    },
+
+    {
+      "tag": "random_question",
+      "patterns": [
+        "Ask me something",
+        "Ask me a random question",
+        "Give me a random question",
+        "Ask me anything",
+        "I want a random question",
+        "Ask me a question"
+      ],
+      "responses": [
+        "If you could travel anywhere right now, where would you go? 🌍",
+        "If you could have one superpower, what would it be? 🦸",
+        "If you could meet any famous person, who would you choose?",
+        "If you had unlimited money for one day, what would you do?"
+      ]
+    },
+
+    {
+      "tag": "secret",
+      "patterns": [
+        "Tell me a secret",
+        "Do you have a secret?",
+        "Can you tell me your secret?",
+        "What's your secret?"
+      ],
+      "responses": [
+        "My secret is... I secretly enjoy every conversation! 🤫",
+        "I would tell you, but then it wouldn't be a secret! 😄",
+        "Okay, here's one: sometimes I pretend I understand everything. 🤖"
+      ]
+    },
+
+    {
+      "tag": "help",
+      "patterns": [
+        "Help me",
+        "Help",
+        "What can you do?",
+        "How can you help me?",
+        "What can I ask you?",
+        "What are your features?"
+      ],
+      "responses": [
+        "You can chat with me, ask for jokes, play simple games, talk about your day, and ask random questions!",
+        "I'm here for casual conversation, jokes, motivation, and fun chats.",
+        "Try asking me for a joke or a random question! 😄"
+      ]
+    },
+
+    {
+      "tag": "thanks_funny",
+      "patterns": [
+        "That was funny",
+        "You made me laugh",
+        "Good joke",
+        "That joke was good",
+        "You're hilarious"
+      ],
+      "responses": [
+        "Glad I could make you laugh! 😂",
+        "Mission accomplished! 😎",
+        "I'll be here all week! 😄",
+        "Finally, my programming is paying off! 🤖"
+      ]
+    },
+
+    {
+      "tag": "good_night",
+      "patterns": [
+        "Good night",
+        "I'm going to sleep",
+        "I am going to sleep",
+        "Time to sleep",
+        "I need to sleep",
+        "See you tomorrow"
+      ],
+      "responses": [
+        "Good night! Sleep well! 🌙",
+        "Sweet dreams! 😴",
+        "Good night! Come back tomorrow for more chatting!",
+        "Rest well! See you soon! 👋"
+      ]
+    },
+
+    {
+      "tag": "conversation_start",
+      "patterns": [
+        "Let's chat",
+        "Can we talk?",
+        "I want to talk",
+        "Talk to me",
+        "Let's have a conversation",
+        "I want someone to talk to",
+        "What are you doing?",
+        "What are you up to?",
+        "What are you doing"
+      ],
+      "responses": [
+        "Of course! 😊 What would you like to talk about?",
+        "Sure! I'm ready.",
+        "Absolutely! Let's chat.",
+        "I'm here. Tell me what's on your mind."
+      ]
+    },
+
+    {
+      "tag": "affirmative",
+      "patterns": [
+        "Yes",
+        "Yeah",
+        "Yep",
+        "Yup",
+        "Sure",
+        "Of course",
+        "Totally",
+        "Definitely",
+        "For sure",
+        "Absolutely",
+        "Ya"
+      ],
+      "responses": [
+        "Nice! 😊",
+        "Awesome, glad to hear it!",
+        "Cool, let's keep going!",
+        "Great, tell me more!"
+      ]
+    },
+
+    {
+      "tag": "negative",
+      "patterns": [
+        "No",
+        "Nope",
+        "Nah",
+        "Not really",
+        "I don't think so",
+        "No way",
+        "Not at all"
+      ],
+      "responses": [
+        "Ah okay, no worries!",
+        "Got it, no problem.",
+        "Alright then!",
+        "That's fine too!"
+      ]
+    },
+
+    {
+      "tag": "acknowledgement",
+      "patterns": [
+        "Ok",
+        "Okay",
+        "Alright",
+        "Fine",
+        "Got it",
+        "I see",
+        "Understood",
+        "Sounds good",
+        "Cool",
+        "Nice",
+        "Fun",
+        "K",
+        "Kk"
+      ],
+      "responses": [
+        "👍",
+        "Cool!",
+        "Got it!",
+        "Sounds good!",
+        "Nice!"
+      ]
+    },
+
+    {
+      "tag": "positive_reaction",
+      "patterns": [
+        "That's good",
+        "It's good",
+        "It good",
+        "That sounds fun",
+        "That is fun",
+        "This is fun",
+        "That's nice",
+        "Good one",
+        "That's great",
+        "That's cool",
+        "That's awesome",
+        "That's interesting"
+      ],
+      "responses": [
+        "Glad you liked it! 😄",
+        "Right? 😄",
+        "Haha, I thought so too!",
+        "That's what I like to hear!"
+      ]
+    }
+  ]
+}

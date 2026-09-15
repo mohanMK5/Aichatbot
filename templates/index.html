@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Intent Bot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="frame">
+  <header class="frame-header">
+    <h1>Intent Bot</h1>
+    <p class="frame-sub">An NLP-powered assistant using bag-of-words feature extraction and a Logistic Regression classifier to understand your intent.</p>
+  </header>
+
+  <main class="log" id="log">
+    <div class="msg bot">
+      <span class="who">bot</span>
+      <p>Hey — I'm Just designed for casual and funny conversations — perfect for a bit of time pass... Ask me something and watch how the routing changes.</p>
+    </div>
+  </main>
+
+  <form class="composer" id="composer">
+    <input
+      type="text"
+      id="input"
+      placeholder="Say something..."
+      autocomplete="off"
+      autofocus
+    >
+    <button type="submit" id="send">Send</button>
+  </form>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
