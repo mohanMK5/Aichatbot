@@ -1,4 +1,4 @@
-flask
+flash
 joblib
 numpy
 scikit-learn
