@@ -1,6 +1,7 @@
 flask
+gunicorn
+nltk
+groq
+scikit-learn
 joblib
 numpy
-scikit-learn
-groq
-gunicorn
